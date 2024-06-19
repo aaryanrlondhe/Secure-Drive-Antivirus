@@ -1,0 +1,5 @@
+SELECT CASE 
+           WHEN EXISTS (SELECT 1 FROM sha1 WHERE hash = 'c8c6ad94874f44858be4e063b0b41b43876414ab') 
+           THEN 'true' 
+           ELSE 'false' 
+       END AS result;
