@@ -1,0 +1,8 @@
+hashlib
+sqlite3
+shutil
+plyer
+PyQt5
+watchdog
+winotify
+requests
