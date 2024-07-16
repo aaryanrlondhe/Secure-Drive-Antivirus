@@ -1,3 +1,4 @@
+psutil
 plyer
 PyQt5
 watchdog
