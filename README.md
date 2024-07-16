@@ -22,13 +22,10 @@ Displays notifications when files are quarantined and prevents their execution.
 Installation
 To install Secure Drive Antivirus, follow these steps:
 
-Clone the repository:
-bash
-Copy code
+## Clone the repository:
+'''
 git clone https://github.com/aaryanrlondhe/Secure-Drive-Antivirus.git
-Navigate to the project directory:
-bash
-Copy code
+'''
 cd Secure-Drive-Antivirus
 Install the required dependencies:
 bash
