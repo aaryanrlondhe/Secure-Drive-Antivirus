@@ -36,28 +36,35 @@ python main.py
 
 We welcome contributions to improve Secure Drive Antivirus. You can fork the repository, make your changes, and submit a pull request. To contribute, follow these steps:
 
-1. Fork the Repository
+#### 1. Fork the Repository
 Click the "Fork" button at the top right of the repository page to create a copy of the repository under your GitHub account.
 
-2. Clone the Repository
-Clone your forked repository to your local machine using git clone https://github.com/your-username/Secure-Drive-Antivirus.git.
+#### 2. Clone the Repository
+Clone your forked repository to your local machine using
+```bash
+git clone https://github.com/aaryanrlondhe/Secure-Drive-Antivirus.git
+```
 
-3. Create a Branch
-Create a new branch for your feature or bug fix using git checkout -b feature-branch-name.
+#### 3. Create a Branch
+Create a new branch for your feature or bug fix using
+```bash
+git checkout -b feature-branch-name.
+```
 
-4. Make Changes
+#### 4. Make Changes
 Implement your changes in your local repository.
 
-5. Commit Changes
-Commit your changes with a clear and descriptive message using git commit -m "Description of your changes".
+#### 5. Commit Changes
+Commit your changes with a clear and descriptive message using
+```bash
+git commit -m "Description of your changes".
+```
 
-6. Push Changes
+#### 6. Push Changes
 Push your changes to your forked repository on GitHub using git push origin feature-branch-name.
 
-7. Submit a Pull Request
+#### 7. Submit a Pull Request
 Go to the original repository on GitHub and click "New Pull Request." Compare your feature branch with the base branch, add relevant comments, and submit the pull request.
-
-We appreciate your efforts in making Secure Drive Antivirus better!
 
 ## License
 Secure Drive Antivirus is licensed under the MIT License. See the LICENSE file for more details.
