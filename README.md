@@ -6,7 +6,7 @@ Secure Drive Antivirus is a comprehensive open-source antivirus solution designe
 ## Features
 Secure Drive Antivirus offers a robust suite of features designed to protect your system from malicious threats:
 
-- Real-time File Monitoring <a name="real-time-file-monitoring"></a>: This feature monitors file creation events in real-time using watchdog, detecting newly created files and scanning them for potential threats to ensure immediate protection.
+- Real-Time File Monitoring <a name="real-time-file-monitoring"></a>: This feature monitors file creation events in real-time using watchdog, detecting newly created files and scanning them for potential threats to ensure immediate protection.
 
 - Full System Scan <a name="full-system-scan"></a>: This functionality allows for the scanning of all files and directories on specified drives or the entire system. It provides comprehensive scanning reports and progress indicators, ensuring thorough and transparent protection.
 
@@ -35,20 +35,19 @@ python main.py
 ## Contributing
 We welcome contributions to enhance Secure Drive Antivirus. To contribute, follow these steps:
 
-### Fork the repository.
-Create a new branch:
-bash
-Copy code
+1. Fork the repository.
+
+2. Create a new branch:
 git checkout -b feature-branch
-Make your changes and commit them:
-bash
-Copy code
+
+3. Make your changes and commit them:
 git commit -m "Description of changes"
-Push to the branch:
-bash
-Copy code
+
+4. Push to the branch:
 git push origin feature-branch
-Create a pull request on GitHub.
-License
+
+5. Create a pull request on GitHub.
+
+## License
 Secure Drive Antivirus is licensed under the MIT License. See the LICENSE file for more details.
 
