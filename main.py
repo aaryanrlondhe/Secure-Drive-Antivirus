@@ -8,10 +8,9 @@ def run_full_scan():
         # Execute the Python script using subprocess
         script_dir = os.path.dirname(os.path.abspath(__file__))
         parent_dir = os.path.dirname(script_dir)
-        sub_dir1 = "Secure Drive"
-        sub_dir2 = "Subprograms"  
+        sub_dir1 = "Subprograms"  
         file_name = "Full_Scan_Part_1.py" 
-        file_path = os.path.join(parent_dir, sub_dir1, sub_dir2, file_name)
+        file_path = os.path.join(script_dir, sub_dir1, file_name)
         subprocess.run(['python', file_path], check=True)
     except subprocess.CalledProcessError as e:
         print(f"🚫 Error: Try Again! {e}")
@@ -23,10 +22,9 @@ def scan_file():
         # Execute the Python script using subprocess
         script_dir = os.path.dirname(os.path.abspath(__file__))
         parent_dir = os.path.dirname(script_dir)
-        sub_dir1 = "Secure Drive"
-        sub_dir2 = "Subprograms"  
+        sub_dir1 = "Subprograms"   
         file_name = "File_Scan.py" 
-        file_path = os.path.join(parent_dir, sub_dir1, sub_dir2, file_name)
+        file_path = os.path.join(script_dir, sub_dir1, file_name)
         subprocess.run(['python', file_path], check=True)
     except subprocess.CalledProcessError as e:
         print(f"🚫 Error: Try Again! {e}")
@@ -38,10 +36,9 @@ def turn_on_real_time_scanning():
         # Execute the Python script using subprocess
         script_dir = os.path.dirname(os.path.abspath(__file__))
         parent_dir = os.path.dirname(script_dir)
-        sub_dir1 = "Secure Drive"
-        sub_dir2 = "Subprograms"  
+        sub_dir1 = "Subprograms"  
         file_name = "Real_Time_Scan_Part_1.py" 
-        file_path = os.path.join(parent_dir, sub_dir1, sub_dir2, file_name)
+        file_path = os.path.join(script_dir, sub_dir1, file_name)
         subprocess.run(['python', file_path], check=True)
     except subprocess.CalledProcessError as e:
         print(f"🚫 Error: Try Again! {e}")
@@ -54,9 +51,8 @@ def turn_off_real_time_scanning():
 def open_quarantine_folder():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     parent_dir = os.path.dirname(script_dir)
-    sub_dir1 = "Secure Drive"
-    sub_dir2 = "Quarantine"  
-    quarantine_folder = os.path.join(parent_dir, sub_dir1, sub_dir2)
+    sub_dir1 = "Subprograms"   
+    quarantine_folder = os.path.join(script_dir, sub_dir1)
     print("📂 Opening Quarantine Folder...")
     os.startfile(quarantine_folder)
 
@@ -65,10 +61,9 @@ def update_antivirus_signatures():
         # Execute the Python script using subprocess
         script_dir = os.path.dirname(os.path.abspath(__file__))
         parent_dir = os.path.dirname(script_dir)
-        sub_dir1 = "Secure Drive"
-        sub_dir2 = "Subprograms"  
+        sub_dir1 = "Subprograms"   
         file_name = "Update_Database.py" 
-        file_path = os.path.join(parent_dir, sub_dir1, sub_dir2, file_name)
+        file_path = os.path.join(script_dir, sub_dir1, file_name)
         subprocess.run(['python', file_path], check=True)
     except subprocess.CalledProcessError as e:
         print(f"🚫 Error: Try Again! {e}")
