@@ -1,26 +1,18 @@
 # Secure Drive Antivirus
 
 ## Overview
-Secure Drive Antivirus is a comprehensive open spourcev antivirus solution designed to provide real-time protection against malware and other malicious threats. This project includes features such as real-time file scanning, full system scan, virus detection for particular files, and quarantine functionalities.Secure Drive Antivirus is developed to ensure the safety and security of your files and system by providing robust protection against various types of malware. With features like real-time scanning and quarantine, it aims to prevent and mitigate the impact of malicious software.
-
+Secure Drive Antivirus is a comprehensive open-source antivirus solution designed to provide robust real-time protection against malware and other malicious threats. This project includes several key features that ensure the safety and security of your files and system. Among these features are real-time file scanning, which continuously monitors your system for potential threats; full system scans, which thoroughly check every file and folder on your device for malicious software; and virus detection for particular files, allowing you to target specific areas of concern. Additionally, the quarantine functionality isolates infected files, preventing them from causing further harm while allowing you to review and address them safely. Developed with the goal of providing reliable and effective protection, Secure Drive Antivirus aims to mitigate the impact of various types of malware, ensuring that your system remains secure and your data stays protected. 
 
 ## Features
-Secure Drive Antivirus offers the following features:
+Secure Drive Antivirus offers a robust suite of features designed to protect your system from malicious threats:
 
-- Real-time File Monitoring <a name="real-time-file-monitoring"></a>
-Monitors file creation events in real-time using watchdog.
-Detects newly created files and scans them for potential threats.
-- Full System Scan <a name="full-system-scan"></a>
-Allows scanning of all files and directories on specified drives or the entire system.
-Provides comprehensive scanning reports and progress indicators.
-- Virus Detection for a Particular File <a name="virus-detection-for-a-particular-file"></a>
-Checks individual files against a database of known virus signatures.
-Notifies users of detected threats and provides options for quarantine.
-- Quarantine Functionality <a name="quarantine-functionality"></a>
-Quarantines infected files to a secure directory.
-Displays notifications when files are quarantined and prevents their execution.
-Installation
-To install Secure Drive Antivirus, follow these steps:
+- Real-time File Monitoring <a name="real-time-file-monitoring"></a>: This feature monitors file creation events in real-time using watchdog, detecting newly created files and scanning them for potential threats to ensure immediate protection.
+
+- Full System Scan <a name="full-system-scan"></a>: This functionality allows for the scanning of all files and directories on specified drives or the entire system. It provides comprehensive scanning reports and progress indicators, ensuring thorough and transparent protection.
+
+- Virus Detection for a Particular File <a name="virus-detection-for-a-particular-file"></a>: This feature checks individual files against a database of known virus signatures. It notifies users of detected threats and provides options for quarantine, allowing for targeted security measures.
+
+- Quarantine Functionality <a name="quarantine-functionality"></a>: Infected files are quarantined to a secure directory. Users receive notifications when files are quarantined, preventing their execution and ensuring that threats are contained.
 
 ## Cloning the repository:
 ```bash
