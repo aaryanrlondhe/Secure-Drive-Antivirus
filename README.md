@@ -22,57 +22,25 @@ Displays notifications when files are quarantined and prevents their execution.
 Installation
 To install Secure Drive Antivirus, follow these steps:
 
-## Clone the repository:
-'''
+## Cloning the repository:
+```bash
 git clone https://github.com/aaryanrlondhe/Secure-Drive-Antivirus.git
-'''
+```
+Navigate to the project directory
+```bash
 cd Secure-Drive-Antivirus
-Install the required dependencies:
-bash
-Copy code
+```
+## Installing Dependencies
+To install the required dependencies, use the following command:
+```bash
 pip install -r requirements.txt
-Run the application:
-bash
-Copy code
+```
+## Executing the Application
+```bash
 python main.py
-Usage
-Real-time Scanning
-Real-time scanning is enabled by default. It continuously monitors the system and alerts the user if any threat is detected. The system tray icon indicates the current status of the antivirus.
+```
 
-Full System Scan
-To perform a full system scan, use the following command in the application interface:
-
-bash
-Copy code
-python main.py --full-scan
-This command initiates a comprehensive scan of all files and directories on the system.
-
-File Scan
-To scan a specific file, use the following command:
-
-bash
-Copy code
-python main.py --scan-file <path_to_file>
-Replace <path_to_file> with the path of the file you wish to scan.
-
-Quarantine
-Suspicious files detected during scans are moved to a quarantine folder. This folder is located inside the "Secure Drive" directory. To create a quarantine folder, you can use:
-
-bash
-Copy code
-mkdir -p "C:/Secure Drive/quarantine"
-Quarantined files can be reviewed and restored if found to be safe.
-
-Configuration
-Configuration settings for Secure Drive Antivirus can be found in the config.json file. This file allows you to customize various parameters, including:
-
-Scan intervals
-Log file locations
-Quarantine folder path
-Notification settings
-To modify the settings, open config.json in a text editor and adjust the values as needed.
-
-Contributing
+## Contributing
 We welcome contributions to enhance Secure Drive Antivirus. To contribute, follow these steps:
 
 Fork the repository.
