@@ -10,13 +10,13 @@ Secure Drive Antivirus offers the following features:
 - Real-time File Monitoring <a name="real-time-file-monitoring"></a>
 Monitors file creation events in real-time using watchdog.
 Detects newly created files and scans them for potential threats.
-Full System Scan <a name="full-system-scan"></a>
+- Full System Scan <a name="full-system-scan"></a>
 Allows scanning of all files and directories on specified drives or the entire system.
 Provides comprehensive scanning reports and progress indicators.
-Virus Detection for a Particular File <a name="virus-detection-for-a-particular-file"></a>
+- Virus Detection for a Particular File <a name="virus-detection-for-a-particular-file"></a>
 Checks individual files against a database of known virus signatures.
 Notifies users of detected threats and provides options for quarantine.
-Quarantine Functionality <a name="quarantine-functionality"></a>
+- Quarantine Functionality <a name="quarantine-functionality"></a>
 Quarantines infected files to a secure directory.
 Displays notifications when files are quarantined and prevents their execution.
 Installation
