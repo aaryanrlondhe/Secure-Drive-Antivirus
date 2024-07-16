@@ -35,7 +35,7 @@ python main.py
 ## Contributing
 We welcome contributions to enhance Secure Drive Antivirus. To contribute, follow these steps:
 
-Fork the repository.
+### Fork the repository.
 Create a new branch:
 bash
 Copy code
