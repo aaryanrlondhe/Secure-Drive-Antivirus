@@ -51,7 +51,7 @@ def turn_off_real_time_scanning():
 def open_quarantine_folder():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     parent_dir = os.path.dirname(script_dir)
-    sub_dir1 = "Subprograms"   
+    sub_dir1 = "Quarantine"   
     quarantine_folder = os.path.join(script_dir, sub_dir1)
     print("📂 Opening Quarantine Folder...")
     os.startfile(quarantine_folder)
