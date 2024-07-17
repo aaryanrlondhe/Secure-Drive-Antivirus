@@ -55,7 +55,7 @@ def check_hashes_in_db(hashes, file_path):
     try:
         username = getpass.getuser()
         parent_dir = os.path.dirname(script_dir)
-        directory = os.path.join(parent_dir, 'Hash Database')
+        directory = os.path.join(parent_dir, 'Malware Hash Database')
         db_file = os.path.join(directory, "hashes.db")
         if not os.path.exists(db_file):
             raise FileNotFoundError(f"🚫 Database file '{db_file}' not found.")
