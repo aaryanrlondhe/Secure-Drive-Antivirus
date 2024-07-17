@@ -32,6 +32,9 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## About Malware Hash Database
+Secure Drive Antivirus uses a malware hash database from the GitHub repository [Malware-Hash-Database](https://github.com/aaryanrlondhe/Malware-Hash-Database). This repository is regularly updated with the latest malware hashes to ensure that Secure Drive Antivirus can detect the most recent threats effectively. The database is maintained by the same person who created Secure Drive Antivirus, ensuring seamless integration and consistent updates. The database contains a collection of known malware signatures, which the antivirus software uses to identify and quarantine infected files. By leveraging this continuously updated repository, Secure Drive Antivirus stays current with emerging threats and enhances its capability to protect your system.
+
 ## Contributing
 
 We welcome contributions to improve Secure Drive Antivirus. You can fork the repository, make your changes, and submit a pull request. To contribute, follow these steps:
