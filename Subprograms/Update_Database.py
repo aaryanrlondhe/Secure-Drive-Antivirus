@@ -35,7 +35,7 @@ def download_files(base_url, prefix):
 
     # Get the parent directory of the script directory
     parent_dir = os.path.dirname(script_dir)
-    directory = os.path.join(parent_dir, 'Hash Database')
+    directory = os.path.join(parent_dir, 'Malware Hash Database')
     files = []
 
     while True:
@@ -57,12 +57,12 @@ def create_database():
 
     # Get the parent directory of the script directory
     parent_dir = os.path.dirname(script_dir)
-    directory = os.path.join(parent_dir, 'Hash Database')
+    directory = os.path.join(parent_dir, 'Malware Hash Database')
     db_path = os.path.join(directory, "hashes.db")
 
     if os.path.exists(db_path):
         os.remove(db_path)
-        #print(f"✅ The old Hash Database has been removed successfully.")
+        #print(f"✅ The old Malware Hash Database has been removed successfully.")
         print(f"🔄 Installing New Antivirus Signatures...")
     else:
         print(f"🚫 The old Antivirus Signatures Database does not exist.")
