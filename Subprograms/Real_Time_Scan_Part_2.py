@@ -109,7 +109,7 @@ def get_file_hashes(file_path):
 
 def check_hashes_in_db(file_path, hashes):
     parent_dir = os.path.dirname(script_dir)
-    directory = os.path.join(parent_dir, 'Hash Database')
+    directory = os.path.join(parent_dir, 'Malware Hash Database')
     db_file = os.path.join(directory, "hashes.db")
     conn = sqlite3.connect(db_file)
     cursor = conn.cursor()
