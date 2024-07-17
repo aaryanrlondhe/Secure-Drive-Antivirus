@@ -70,5 +70,5 @@ Push your changes to your forked repository on GitHub using git push origin feat
 Go to the original repository on GitHub and click "New Pull Request." Compare your feature branch with the base branch, add relevant comments, and submit the pull request.
 
 ## License
-Secure Drive Antivirus is licensed under the MIT License. See the LICENSE file for more details.
+Secure Drive Antivirus is licensed under the MIT License. See the [LICENSE file](https://github.com/aaryanrlondhe/Secure-Drive-Antivirus/blob/main/LICENSE) for more details.
 
